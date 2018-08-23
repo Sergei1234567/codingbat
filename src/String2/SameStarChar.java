@@ -1,6 +1,7 @@
 package String2;
 
-/*Returns true if for every '*' (star) in the string, if there are chars both immediately before and after the star, they are the same.
+/*Возвращает true, если для каждой «*» (звезды) в строке, если есть символы сразу
+  до и после звезды, они одинаковы.
         sameStarChar("xy*yzz") → true
         sameStarChar("xy*zzz") → false
         sameStarChar("*xa*az") → true*/
