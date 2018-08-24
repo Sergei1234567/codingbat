@@ -1,16 +1,8 @@
 package string3;
 
-/*С учетом строки подсчитайте количество слов, заканчивающихся на «y» или «z»,
-        поэтому «y» в «тяжелом» и «z» в «fez», но не «y» в «желтом», (нечувствительный к регистру).
-        Мы скажем, что ay или z находится в конце слова, если буква не сразу после него.
-        (Примечание: Character.isLetter (char) проверяет, является ли символ буквой.)
-        countYZ("fez day") → 2
-        countYZ("day fez") → 2
-        countYZ("day fyyyz") → 2*/
-
 public class CountYZ {
     public int countYZ(String str) {
-        if (str.length() == 0){
+        if (str.length() == 0) {
             return 0;
         }
 

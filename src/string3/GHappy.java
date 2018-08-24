@@ -1,14 +1,8 @@
 package string3;
 
-/*Мы скажем, что строчная буква «g» в строке «счастлива», если есть «g» сразу слева или справа.
-        Возвращаем true, если все g в данной строке счастливы.
-        gHappy ("xxggxx") → true
-        gHappy ("xxgxx") → false
-        gHappy ("xxggyygxx") → false*/
-
 public class GHappy {
-    public boolean gHappy(String str) {
-        if (str.length() == 1 && str.charAt(0) == 'g') {
+    private boolean gHappy(String str) {
+        if (str.length() == 1) {
             return false;
         }
         for (int i = 1; i < str.length() - 1; i++) {
@@ -24,7 +18,7 @@ public class GHappy {
 
     public static void main(String[] args) {
         GHappy happy = new GHappy();
-        String str = "ytugygg";
+        String str = "";
         System.out.println(happy.gHappy(str));
     }
 }
