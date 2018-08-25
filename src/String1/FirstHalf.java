@@ -1,11 +1,15 @@
 package String1;
 
-//При заданной строке четной длины верните первую половину. Итак, строка «WooHoo» дает «Woo».
+//Given a string of even length, return the first half. So the string "WooHoo" yields "Woo".
+//
+//        firstHalf("WooHoo") → "Woo"
+//        firstHalf("HelloThere") → "Hello"
+//        firstHalf("abcdef") → "abc"
 
 public class FirstHalf {
     private static String firstHalf(String str) {
         str = "WOODOO";
-        return str.substring(0, str.length()/2);
+        return str.substring(0, str.length() / 2);
     }
 
     public static void main(String[] args) {

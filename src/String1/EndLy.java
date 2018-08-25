@@ -1,9 +1,10 @@
 package String1;
 
-/*Если задана строка, верните true, если она заканчивается на «ly».
-        endLy ("oddly") → true
-        endsLy ("y") → false
-        endsLy ("oddy") → false*/
+//Given a string, return true if it ends in "ly".
+//
+//        endsLy("oddly") → true
+//        endsLy("y") → false
+//        endsLy("oddy") → false
 
 public class EndLy {
     public boolean endsLy(String str) {

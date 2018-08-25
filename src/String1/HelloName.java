@@ -1,13 +1,9 @@
 package String1;
 
-//Учитывая имя строки, например «Боб», верните приветствие формы «Hello Bob!».
-//helloName («Боб») → «Привет, Боб!»
-//helloName («Алиса») → «Привет, Алиса!»
-//helloName ("X") → "Hello X!"
+//Given a string name, e.g. "Bob", return a greeting of the form "Hello Bob!".
 
 public class HelloName {
     private static String helloName(String name) {
-       // name = "Bob";
         return "Hello " + name + "!";
     }
 
