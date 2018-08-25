@@ -1,15 +1,13 @@
 package String2;
-
-/*Учитывая строку и int n, верните строку, состоящую из n повторений последних n символов строки.
-        Вы можете предположить, что n находится между 0 и длиной строки, включительно.
-        repeatEnd («Hello», 3) → «llollollo»
-        repeatEnd («Hello», 2) → «lolo»
-        repeatEnd («Hello», 1) → «o»*/
-
-import java.util.Arrays;
+//Given a string and an int n, return a string made of n repetitions of the last n characters of the string.
+//        You may assume that n is between 0 and the length of the string, inclusive.
+//
+//        repeatEnd("Hello", 3) → "llollollo"
+//        repeatEnd("Hello", 2) → "lolo"
+//        repeatEnd("Hello", 1) → "o"
 
 public class RepeatEnd {
-    public static  String repeatEnd(String str, int n) {
+    public static String repeatEnd(String str, int n) {
         int len = str.length();
         String newWord = "";
 

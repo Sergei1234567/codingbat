@@ -1,15 +1,19 @@
 package String2;
-/*читывая строку, верните строку, где для каждого символа в оригинале есть два символа.
-        doubleChar («The») → «TThhee»
-        doubleChar («AAbb») → «AAAAbbbb»
-        doubleChar («Привет-там») → «HHii - TThheerree»*/
+
+//Given a string, return a string where for every char in the original, there are two chars.
+//
+//        doubleChar("The") → "TThhee"
+//        doubleChar("AAbb") → "AAAAbbbb"
+//        doubleChar("Hi-There") → "HHii--TThheerree"
 
 public class DoubleChar {
     public String doubleChar(String str) {
         String string = "";
-        for (int i = 0; i < str.length() ; i++) {
-        string += str.charAt(i);
-        string += str.charAt(i);
+        int i = 0;
+        while (i < str.length()) {
+            string += str.charAt(i);
+            string += str.charAt(i);
+            i++;
         }
         return string;
     }
