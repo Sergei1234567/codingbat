@@ -1,11 +1,13 @@
 package Array2;
 
-/*При заданных массивах nums1 и nums2 той же длины для каждого элемента в nums1
-        рассмотрим соответствующий элемент в nums2 (в том же индексе). Возвращает счетчик количества раз,
-        когда два элемента отличаются на 2 или меньше, но не равны.
-        matchUp ([1, 2, 3], [2, 3, 10]) → 2
-        matchUp ([1, 2, 3], [2, 3, 5]) → 3
-        matchUp ([1, 2, 3], [2, 3, 3]) → 2*/
+//Given arrays nums1 and nums2 of the same length, for every element in nums1,
+//        consider the corresponding element in nums2
+//        (at the same index). Return the count of the number of times that the two
+//        elements differ by 2 or less, but are not equal.
+//
+//        matchUp([1, 2, 3], [2, 3, 10]) → 2
+//        matchUp([1, 2, 3], [2, 3, 5]) → 3
+//        matchUp([1, 2, 3], [2, 3, 3]) → 2
 
 public class MatchUp {
     public int matchUp(int[] nums1, int[] nums2) {
