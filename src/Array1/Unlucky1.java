@@ -1,12 +1,11 @@
 package Array1;
 
-/*Мы скажем, что 1, за которым сразу следует 3 в массиве, является «неудачным». 1.
- Верните true, если данный массив содержит несчастливое 1 в первых двух или последних двух позициях в массиве.
-        unlucky1 ([1, 3, 4, 5]) → true
-        unlucky1 ([2, 1, 3, 4, 5]) → true
-        unlucky1 ([1, 1, 1]) → false*/
-
-import java.util.Arrays;
+//We'll say that a 1 immediately followed by a 3 in an array is an "unlucky" 1.
+//        Return true if the given array contains an unlucky 1 in the first 2 or last 2 positions in the array.
+//
+//        unlucky1([1, 3, 4, 5]) → true
+//        unlucky1([2, 1, 3, 4, 5]) → true
+//        unlucky1([1, 1, 1]) → false
 
 public class Unlucky1 {
     public boolean unlucky1(int[] nums) {
