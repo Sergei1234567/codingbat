@@ -13,10 +13,7 @@ public class BunnyEars2 {
         if (bunnies == 0) {
             return 0;
         }
-        if (bunnies % 2 == 1) {
-            return 2 + bunnyEars2(bunnies - 1);
-        }
-        return 3 + bunnyEars2(bunnies - 1);
+        return bunnies % 2 == 1 ? 2 + bunnyEars2(bunnies - 1) : 3 + bunnyEars2(bunnies - 1);
     }
 
     public static void main(String[] args) {
